@@ -11,7 +11,7 @@
   - [`main_deteccion.py`](main_deteccion.py): Procesar un video y crear los archivos correspondientes
     - TO-DO: completar funcion `process_video`
   - **CARPETAS**
-  - `Videos`: Descargar de [drive](https://drive.google.com/drive/u/0/folders/1hHkDDtzuCoWAveTURGSAOugUBFF9jBZ7) y colocar en esta carpeta
+  - `Videos`: Descargar de [drive](https://drive.google.com/drive/u/0/folders/1hHkDDtzuCoWAveTURGSAOugUBFF9jBZ7) y colocar en esta carpeta, también está el video como numpy array [acá](https://drive.google.com/open?id=1lNAghhACUCktvsMljfRoHyFYzB4FPHiW)
   - `Deteccion`:
     - (Nombre de metodo de detección): Puede ser `RetinaFace` o `dlib`
       - (Nombre de video)

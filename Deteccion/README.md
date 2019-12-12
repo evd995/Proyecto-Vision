@@ -2,6 +2,10 @@
 
 Esta carpeta deberá contener los archivos procesados de los atributos (Descriptores, headpose, etc). Se estructurará _por frame_, es decir, se creará una carpeta para cada frame del video y esta carpeta contendrá la info de todos los atributos de la gente en el frame
 
+# Archivos
+
+Los archivos ya procesados se pueden descargar [acá](https://drive.google.com/open?id=191isDWFmHhIE9IEZOtp2H2OZjW3FT3nx)
+ 
 # Estructura
 - `Deteccion`:
     - (Nombre de metodo de detección): Puede ser `RetinaFace` o `dlib`
