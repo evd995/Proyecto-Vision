@@ -3,14 +3,6 @@
 ## Estructura de archivos
 
 - Proyecto-Vision
-  - **CÓDIGO**
-  - [`dlib_detector.py`](main_deteccion.py): Código necesario para calcular los bounding boxes usando dlib
-    - TO-DO: completar función `get_boxes`
-  - [`retinaface_detector.py`](main_deteccion.py): Código necesario para calcular los bounding boxes usando RetinaFace
-    - TO-DO: completar función `get_boxes`
-  - [`main_deteccion.py`](main_deteccion.py): Procesar un video y crear los archivos correspondientes
-    - TO-DO: completar funcion `process_video`
-  - **CARPETAS**
   - `Videos`: Descargar de [drive](https://drive.google.com/drive/u/0/folders/1hHkDDtzuCoWAveTURGSAOugUBFF9jBZ7) y colocar en esta carpeta, también está el video como numpy array [acá](https://drive.google.com/open?id=1lNAghhACUCktvsMljfRoHyFYzB4FPHiW)
   - `Deteccion`:
     - (Nombre de metodo de detección): Puede ser `RetinaFace` o `dlib`
@@ -25,5 +17,10 @@
           - `interacciones_headpose.npy`: Lista de tuplas de interacciones que indican que persona en la foto interactuó con quien (Ej: [(p1, p2), (p3, p4)] indica que p1 interactuó con p2 y p3 con p4) CADA ENTRADA EN LA TUPLA CORRESPONDE AL NUMERO DE FILA DE LA PERSONA EN `bounding_boxes.npy`
           - `identidades.npy`: (Se calcula al final final) Lista que asocia cada una de las filas de `bounding_boxes.npy` con una identidad de una persona (ej: Tony Stark)
   - `Personas`
-    - (Nombre de metodo de detección): Puede ser `RetinaFace` o `dlib`
-      - (persona_xxx.npy): recolecta todos los descriptores de una persona en particular
+    - Procesar Personas.ipynb: Notebook con código para realizar clasificación de personas
+    - datos_personas.csv: Datos de personas clasificadas con estrategia 1 
+    - datos_personas_conocidas.csv: Datos de personas clasificadas con estrategia 2
+  - `Queries`
+    - Queries Simples.ipynb: Ejemplos de queries que se pueden hacer en el sistema
+    - Plot Queries.ipynb: Convertir las queries en videos
+    
